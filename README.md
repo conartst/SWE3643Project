@@ -29,7 +29,9 @@ This is a non-platform application and should work only in Windows 10.
 To prepare your environment to execute this application:
  1. [Install the latest Visual Studio for your system.](https://visualstudio.microsoft.com/downloads/)
  2. [Install ASP.NET Blazor Server](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/install)  
- 3. [Install .NET Core 3.1 ](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+ 3. [Install .NET Core 3.1 ](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)  
+ 4. [Install Visual Studio 17.8 ](https://devblogs.microsoft.com/visualstudio/visual-studio-17-8-now-available/)
+
 
 ## Executing the Web Application
 
