@@ -1,6 +1,6 @@
 # KSU SWE 3643 Software Testing and Quality Assurance Semester Project: Web-Based Calculator
 
-Our repository currently contains Calculator3 which holds our Calculator Logic. The WebsiteCal which is using ASP.NET Blazor Server.
+Our repository currently contains Calculator3 which holds our Calculator Logic. The WebsiteCal which is using ASP.NET Blazor Server. We are using Nunit + Playwright to do our testing.
 
 ## Table of Contents
 
