@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Calculator3">
+      <HintPath>..\..\Calculator3\Calculator3\bin\Debug\netcoreapp3.1\Calculator3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
