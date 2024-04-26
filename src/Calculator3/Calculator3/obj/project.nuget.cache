@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jV9Zz5AG8XvZW3+E0REBU7ruutWfKRieXfJ1DoIg/zEkBFZjJ9HrEv/5Gfzj3cuPg/8hI8m9NDhPQ4iZoPShaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\conne\\Downloads\\SWE3643Project-main\\SWE3643Project-main\\Calculator3\\Calculator3\\Calculator3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\conne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+C:\Users\basil\source\repos\Calculator3\Calculator3\bin\Debug\netcoreapp3.1\Calculator3.exe
+C:\Users\basil\source\repos\Calculator3\Calculator3\bin\Debug\netcoreapp3.1\Calculator3.deps.json
+C:\Users\basil\source\repos\Calculator3\Calculator3\bin\Debug\netcoreapp3.1\Calculator3.runtimeconfig.json
+C:\Users\basil\source\repos\Calculator3\Calculator3\bin\Debug\netcoreapp3.1\Calculator3.runtimeconfig.dev.json
+C:\Users\basil\source\repos\Calculator3\Calculator3\bin\Debug\netcoreapp3.1\Calculator3.dll
+C:\Users\basil\source\repos\Calculator3\Calculator3\bin\Debug\netcoreapp3.1\Calculator3.pdb
+C:\Users\basil\source\repos\Calculator3\Calculator3\obj\Debug\netcoreapp3.1\Calculator3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basil\source\repos\Calculator3\Calculator3\obj\Debug\netcoreapp3.1\Calculator3.AssemblyInfoInputs.cache
+C:\Users\basil\source\repos\Calculator3\Calculator3\obj\Debug\netcoreapp3.1\Calculator3.AssemblyInfo.cs
+C:\Users\basil\source\repos\Calculator3\Calculator3\obj\Debug\netcoreapp3.1\Calculator3.csproj.CoreCompileInputs.cache
+C:\Users\basil\source\repos\Calculator3\Calculator3\obj\Debug\netcoreapp3.1\Calculator3.dll
+C:\Users\basil\source\repos\Calculator3\Calculator3\obj\Debug\netcoreapp3.1\Calculator3.pdb
+C:\Users\basil\source\repos\Calculator3\Calculator3\obj\Debug\netcoreapp3.1\Calculator3.genruntimeconfig.cache
