@@ -21,7 +21,7 @@ Conner Abel
 Basile Sounantharak 
 
 # Architecture
-(Insert Image of our logic)
+[![[image-20240128222116749]](UMLDiagram.png)](https://www.plantuml.com/plantuml/uml/VL9TQzj047pNhrYIbuJK_G5jAP4Jb_YXngHo2gKWphf5ERg-LU_3gYdvxz565ZwZsFVWysfcxtPcxjO7vKBSKAQ8kDsOVyRMMTQewe-g4Ixk55MHL61t0PTawkUmfeZP_mowLP7o7WwKcQsDHUX1MJUGQtqrjqqC-GTuswVNdnDuzZSgycD6GYcKpVU4ezP7h4pZk59qZBvasSkx0c0_tigQ00Nwu65h52oa_ZYesw7O8FfEg1DstooSlKGJ3DkoQFcUuvhGbykkzUfwJxWtM-E5CA3oGUDqzmiT2qjcXZCtJIPVH-X9bJzn3J_GRT51tZJZr7fPtraZ-KFzPB1DoZksmJ4HEY-ZfRLCCz37G7_k61aBE9sIdXGywROaf2MfNUj4o75Gy7vGkc3vIMA2cuJGMRGoPPTRbrZvzdXy7zYOkfftMTPOc41Oplq16CZZS_jqln6hO6ozP6F3awA8kTKIUFc88Jhh5npoHToiqSsSOtTu1t1IYjYOsle97efYANGIbtvRU42b2Rs7gUFMenEJA-AeuJ8nxDbeXCguYh2tBsc0uHzyENDTT-ujMXqtz0e0)
 
 # Environment
 This is a non-platform application and should work only in Windows 10.  
@@ -78,7 +78,19 @@ A total of 1 test files matched the specified pattern.
 <img src="CalculatorCoverage.png" alt="CalculatorCoverage.png" style="zoom: 50%;" />
 
 ## Executing End-To-End Tests
-1. steps
+
+1. Open CMD (Command Prompt)
+
+2. Type path to the project (Ex: 
+cd C:\Users\yourname\source\repos\PlaywrightTests.csproj\PlaywrightTests.csproj)  
+
+3. Building Web Application (Ex: msbuild PlaywrightTests.csproj)  
+
+4. Next find executable file (Ex: G:\software\New New\SWE3643Project\src\PlaywrightTests\bin\Debug\net8.0\testhost.exe)  
+  
+5. Running Playwright Tests (Ensure Playwright dependency is Installed) (Enter in CMD: npm install playwright)  
+  
+6. Lastly Execute test node (Ex: node UnitTest1.cs)
 
 Sample Output
 >========== Starting test run ==========
