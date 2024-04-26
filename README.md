@@ -77,15 +77,8 @@ A total of 1 test files matched the specified pattern.
 
 <img src="CalculatorCoverage.png" alt="CalculatorCoverage.png" style="zoom: 50%;" />
 
-(Insert Image Here)
-
 ## Executing End-To-End Tests
-
-1. K (keep)
-
-2. Y (yourself)
-
-3. S (safe)
+1. steps
 
 Sample Output
 >lmao
