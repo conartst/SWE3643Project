@@ -1,61 +1,54 @@
-﻿@page "/"
+@page "/"
 
-<h1>Calculator</h1>
+<h1>Calculator
+<button class="btn btn-primary" @onclick="Clearing">Clear</button>
+</h1>
 
 <div id="textbox" style="@ColorBox: #FFECD7; padding: 5px; width: 500px; height: 50px; text-align: center; display: flex; justify-content: center; align-items: center;" contenteditable="false">
     @SinCosTanRecip @Input1 @Symbol @Input2 <br> @AnswerString @Error
 </div>
-
-
-<button class="btn btn-primary" @onclick="Clearing">Clear</button>
-
+<br />
 @using Calculator3
 
 <input type="text" @bind="myNumber" placeholder="Enter Number A" />
 <input type="text" @bind="myNumber2" placeholder="Enter Number B" />
-
-<div class="button-column">
-    <input type="text" value="A and B" readonly contenteditable="false" />
-    <input type="text" value="A Only" readonly contenteditable="false" />
+<br />
+<div class="textbox-column">
+    <br />
+    <input type="text" value="A and B" readonly style="background-color: #EBEBEB; color: #000000;" />
+    <input type="text" value="A Only" readonly style="background-color: #EBEBEB; color: #000000;" />
 </div>
 
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Adding">Add</button>
-    <button class="btn btn-primary" @onclick="Factorialing">Factorial</button>
+<br />
+<style>
+    .btn-primary {
+        background-color: #EBEBEB;
+        color: #000000;
+    }
+</style>
+<div class="row">
+    <div class="col-md-2">
+        <div class="btn-group-vertical btn-group-vertical-A-and-B">
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Adding">A + B</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Subtracting">A - B</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Multiplying">A * B</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Dividing">A / B</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Equals">A == B</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Powering">A ^ B</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Loging">A log B</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Rooting">A root B</button>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="btn-group-vertical btn-group-vertical-Just-A">
+            <button class="btn btn-primary btn-lg btn-block" @onclick="Factorialing">A !</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="SinAing">sin A</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="CosAing">cos A</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="TanAing">tan A</button>
+            <button class="btn btn-primary btn-lg btn-block" @onclick="ReciprocalAing">1 / A</button>
+        </div>
+    </div>
 </div>
-
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Subtracting">Subtract</button>
-    <button class="btn btn-primary" @onclick="SinAing">Sin A</button>
-</div>
-
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Multiplying">Multiply</button>
-    <button class="btn btn-primary" @onclick="CosAing">Cos A</button>
-</div>
-
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Dividing">Divide</button>
-    <button class="btn btn-primary" @onclick="TanAing">Tan A</button>
-</div>
-
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Equals">Equal</button>
-    <button class="btn btn-primary" @onclick="ReciprocalAing">Reciprocal A</button>
-</div>
-
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Powering">Power</button>
-</div>
-
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Loging">Log</button>
-</div>
-
-<div class="button-column">
-    <button class="btn btn-primary" @onclick="Rooting">Root</button>
-</div>
-
 
 @code {
 
