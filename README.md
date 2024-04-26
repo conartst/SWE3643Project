@@ -81,7 +81,12 @@ A total of 1 test files matched the specified pattern.
 1. steps
 
 Sample Output
->lmao
+>========== Starting test run ==========
+NUnit Adapter 4.5.0.0: Test execution started
+Running selected tests in C:\Users\basil\PlaywrightTests\bin\Debug\net8.0\PlaywrightTests.dll
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+NUnit Adapter 4.5.0.0: Test execution complete
+========== Test run finished: 5 Tests (5 Passed, 0 Failed, 0 Skipped) run in 6.7 sec ==========
 
 ## Final Video Presentation
 (Video Link Here)
