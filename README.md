@@ -4,7 +4,7 @@ Our repository currently contains Calculator3 which holds our Calculator Logic. 
 
 ## Table of Contents
 
--  [Introduction](#-KSU-SWE-3643-Software-Testing-and-Quality-Assurance-Semester-Project:-Web-Based-Calculator))
+-  [Introduction](#-KSU-SWE-3643-Software-Testing-and-Quality-Assurance-Semester-Project:-Web-Based-Calculator)
 -  [Table of Contents](#Table-of-Contents)
 -  [Team Members](#Team-Members)
 -  [Architecture](#Architecture)
