@@ -103,8 +103,5 @@ NUnit Adapter 4.5.0.0: Test execution complete
 ========== Test run finished: 5 Tests (5 Passed, 0 Failed, 0 Skipped) run in 6.7 sec ==========
 
 ## Final Video Presentation
-(Video Link Here)
-Either link to youtube or vimeo  
-or place into our repository
-
+[(Vimeo)](https://vimeo.com/939785483?share=copy)
 
